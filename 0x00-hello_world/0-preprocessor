@@ -1,0 +1,8 @@
+#!/bin/bash 
+
+output="c"
+cfile=$CFILE
+
+gcc $cfile -o $output
+
+echo "the file is outputed in c file "
